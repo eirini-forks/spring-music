@@ -6,5 +6,6 @@ applications:
   path: build/libs/spring-music-1.0.jar
   env:
     JBP_CONFIG_SPRING_AUTO_RECONFIGURATION: '{enabled: false}'
-    SPRING_PROFILES_ACTIVE: http2
+    SPRING_PROFILES_ACTIVE: postgres
+
 #    JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
